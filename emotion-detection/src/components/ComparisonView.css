@@ -1,0 +1,145 @@
+/* components/ComparisonView.css */
+.comparison-view-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .comparison-view-container h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .comparison-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+  }
+  
+  .comparison-column {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    margin: 0 10px;
+  }
+  
+  .comparison-column:first-child {
+    border-left: 4px solid #e74c3c;
+  }
+  
+  .comparison-column:last-child {
+    border-left: 4px solid #3498db;
+  }
+  
+  .comparison-column h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .emotion-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #34495e;
+  }
+  
+  .context-box, .metrics-box {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+  }
+  
+  .context-box h4, .metrics-box h4 {
+    margin-bottom: 8px;
+    color: #7f8c8d;
+  }
+  
+  .gap-analysis {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f5f6fa;
+    border-radius: 8px;
+  }
+  
+  .gap-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+  }
+  
+  .gap-label {
+    font-weight: 600;
+  }
+  
+  .small-gap {
+    background-color: #e8f8f5;
+    color: #16a085;
+  }
+  
+  .medium-gap {
+    background-color: #fef9e7;
+    color: #f39c12;
+  }
+  
+  .large-gap {
+    background-color: #fdedec;
+    color: #c0392b;
+  }
+  
+  .insights-section {
+    margin: 30px 0;
+  }
+  
+  .insights-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .insight-item {
+    padding: 12px 15px;
+    margin: 10px 0;
+    background-color: #ebf5fb;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+    text-align: left;
+  }
+  
+  .recommendations {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #eafaf1;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .recommendations h3 {
+    color: #27ae60;
+    margin-bottom: 15px;
+  }
+  
+  .recommendations ul {
+    padding-left: 20px;
+  }
+  
+  .recommendations li {
+    margin: 8px 0;
+  }
+  
+  .reset-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 30px;
+  }
+  
+  .reset-button:hover {
+    background-color: #c0392b;
+  }
